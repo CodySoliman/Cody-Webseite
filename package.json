@@ -1,0 +1,27 @@
+{
+  "name": "cody-website",
+  "version": "0.0.1",
+  "description": "Personal Website of Cody Soliman",
+  "main": "site.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodySoliman/Cody-Webseite.git"
+  },
+  "keywords": [
+    "npm",
+    "personal",
+    "codynemo"
+  ],
+  "author": "Cody",
+  "license": "SEE LICENSE IN license.html",
+  "bugs": {
+    "url": "https://github.com/CodySoliman/Cody-Webseite/issues"
+  },
+  "homepage": "https://github.com/CodySoliman/Cody-Webseite#readme",
+  "devDependencies": {
+    "webpack": "^2.5.0"
+  }
+}

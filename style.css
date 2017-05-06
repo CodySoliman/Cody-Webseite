@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+	margin: 0 auto;
+	max-width: 90%;
+	display: block;
+	font-family: 'Quicksand', sans-serif;
+}
+
+h3, #last-name {
+	text-transform: uppercase;
+}
+
+h3 {
+	color: #009FE3;
+	font-weight: 100;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	background-color: #009FE3;
+	color: #FFFFFF;
+	height: 35vh;
+	min-height: 100%;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 72%, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 72%, 0 100%);
+	font-family: FontAwesome;
+}
+
+header div:first-of-type {
+	margin: 0 0 1% 5%;
+	align-self: flex-end;
+	line-height: 0.7;
+	-ms-transform: rotate(-5deg); /* IE 9 */
+    -webkit-transform: rotate(-5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-5deg);
+}
+
+header div:nth-of-type(2) {
+	margin-left: 55%
+}
+
+content {
+	display: flex;
+	flex-direction: row;
+	background-color: #FFFFFF;
+	margin: 0 5%;
+}
+
+content > div {
+	width: 80%;
+}
+
+content > div:first-of-type {
+	display: flex;
+	flex-direction: column;
+}
+
+content > div:nth-of-type(2), content > div > div {
+	display: flex;
+	flex-direction: column;
+}
+
+content > div > div > div {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	line-height: 1.5;
+	font-size: 9px;
+}
+
+content > div > div > div > p:first-of-type {
+	width: 40%;
+	color: #009FE3;
+	font-weight: 600;
+	padding-right: 3%;
+}
+
+content > div > div > div > p:nth-of-type(2) {
+	width: 50%;
+}
+
+content > div > div > div > p:nth-of-type(2) > span {
+	font-weight: 900;
+}
