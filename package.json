@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/CodySoliman/Cody-Webseite#readme",
   "devDependencies": {
-    "webpack": "^2.5.0"
+    "css-loader": "^0.28.1",
+    "style-loader": "^0.17.0",
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.4.5"
   }
 }
