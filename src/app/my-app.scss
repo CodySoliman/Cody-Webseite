@@ -1,0 +1,17 @@
+$main-color: #009FE3;
+
+.left {
+  background-color: $main-color;
+}
+
+.right, .left {
+  display: inherit;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.menu {
+  display: inherit;
+  flex-direction: row;
+}
